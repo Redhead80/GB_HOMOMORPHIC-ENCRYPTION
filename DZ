@@ -2,11 +2,11 @@
 from random import randint
 nkeys = 100 # размер массива публичных ключей
 PublicKey = [0]*nkeys # массив публичных ключей
-PrivateKey = 0 # секретныи̮ ключ
+PrivateKey = 0 # секретный ключ
 b1 = 10**10 # нижняя граница диапазона значений ключей
 b2 = b1**2 # верхняя граница диапазона значений ключей
 modulo = b1 # порядок группы
-def GreatestCommonDivisor(a,b): # вычисление НОД(а,b), итеративный̮ вариант
+def GreatestCommonDivisor(a,b): # вычисление НОД(а,b), итеративный вариант
   while (b != 0):
     a = a % b
     a, b = b, a
