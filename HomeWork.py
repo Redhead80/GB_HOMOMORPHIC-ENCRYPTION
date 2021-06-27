@@ -29,4 +29,3 @@ def Encrypt(m):
 def Decrypt(c):
  global PrivateKey, modulo
  return (c % PrivateKey) % modulo
- 
